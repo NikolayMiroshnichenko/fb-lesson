@@ -1,7 +1,116 @@
+@media (min-width: 1919px) {
+    .wrapper {
+        max-width: 1920px;
+        max-height: 1080px;
+    }
+    .header {
+        padding-top: 40px;
+    }
+    .logo {
+        width: 102px;
+        height: 78px;
+    }
+    .header-content__data {
+        font-size: 20px;
+    }
+    .header-content__time {
+        font-size: 24px;
+    }
+    .main {
+        padding-top: 120px;
+    }
+    .main-text {
+        font-size: 24px;
+        padding: 20px 0 30px 30px;
+    }
+    .main-text::before {
+        width: 16px;
+        height: 16px;
+    }
+    .main-title {
+        width: 52%;
+        font-size: 48px;
+    }
+    .main-list__item {
+        font-size: 24px;
+        padding-left: 100px;
+    }
+    .first::before,
+    .second::before {
+        width: 60px;
+        height: 60px;
+    }
+    .main-descriptions {
+        font-size: 24px;
+        line-height: 1.6;
+    }
+    .boy-png {
+        right: 460px;
+        bottom: 150px;
+        width: 288px;
+        height: 488px;
+    }
+    .form {
+        height: 620px;
+        padding: 80px 50px 0 50px;
+    }
+    .form-title {
+        font-size: 30px;
+        padding: 20px 10px;
+    }
+    .form-text {
+        font-size: 22px;
+        padding: 6px 10px 30px 10px;
+    }
+    .form-btn {
+        padding: 16px 0;
+        font-size: 20px;
+    }
+    .form-deskriptions {
+        font-size: 22px;
+    }
+    .timer-wrapper {
+        bottom: -10px;
+        padding: 14px;
+    }
+    .timer-title {
+        font-size: 20px;
+        padding: 4px 0;
+    }
+    .countdown {
+        width: 360px;
+    }
+    .countdown-time {
+        font-size: 40px;
+    }
+    .countdown-text {
+        font-size: 16px;
+    }
+    .catch {
+        font-size: 40px;
+        right: 30px;
+        bottom: 130px;
+        padding: 30px 40px;
+        border: 4px dashed #76d84b;
+        transform: rotate(-20deg);
+    }
+    .line {
+        right: 450px;
+        bottom: 70px;
+        width: 600px;
+        height: 156px;
+        background-size: 100% 100%;
+    }
+
+
+}
 @media (max-width: 1365px) {
     .wrapper {
         max-width: 545px;
         height: auto;
+        max-height: 1330px;
+        background-image: url(../img/bg-mob.png);
+        background-size: 100% 100%;
 
     }
     .container {
@@ -44,7 +153,7 @@
     }
     .main-descriptions {
         position: absolute;
-        bottom: -170px;
+        bottom: -180px;
         font-size: 18px;
         width: 100%;
     }
@@ -91,4 +200,10 @@
     .boy-png {
         display: none;
     }
+}
+@media (max-width: 350px) {
+    .main-descriptions {
+        font-size: 16px;
+    }
+    
 }
