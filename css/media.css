@@ -27,6 +27,9 @@
     .header-content__time {
         font-size: 20px;
     }
+    .main {
+        padding-top: 40px;
+    }
     .main-text {
         font-size: 16px;
         padding: 20px 0 20px 20px;
