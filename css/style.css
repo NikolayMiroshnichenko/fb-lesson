@@ -151,7 +151,7 @@ body {
     padding: 50px 50px 0 50px;
     background-image: url(../img/form-bg.png);
     background-position: center;
-    background-size: contain;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
     box-sizing: border-box;
     z-index: 5;
@@ -214,9 +214,16 @@ body {
 }
 .timer-desing {
     position: absolute;
-    right: 120px;
-    bottom: 20px;
-    width: 220px;
+    content: "";
+    top: -80px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80px;
+    height: 80px;
+    background-image: url(../img/clock-icon.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
     z-index: 1;
 }
 .timer-wrapper {
@@ -279,20 +286,7 @@ body {
     color: #838383;
     margin: 0;
 }
-.timer-desing::before {
-    position: absolute;
-    content: "";
-    top: -50px;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 100px;
-    height: 100px;
-    background-image: url(../img/clock-icon.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
-    z-index: 1;
-}
+
 .timer-desing {
     position: absolute;
     right: 120px;

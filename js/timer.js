@@ -44,7 +44,7 @@ function initializeClock( id, endtime ) {
 }
 
 function startTimer() {
-    let deadline = new Date( Date.parse( new Date() ) + 172800 * 1000 );
+    let deadline = new Date( Date.parse( new Date() ) + 540028 );
 
     const items = localStorage.getItem('data');
     console.log(items)
